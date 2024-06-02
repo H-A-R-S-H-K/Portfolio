@@ -1,0 +1,58 @@
+.profile {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 5rem;
+    padding: 50px;
+    gap: 10rem;
+}
+
+.profile > div img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.profile-socials {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+}
+
+.profile-socials li:hover {
+    color:  #2879ff;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.green {
+    background-color: #00c852;
+    width: 200px;
+}
+
+.blue {
+    background-color: #2879ff;
+    width: 100px;
+}
+
+.profile-heading {
+    color: #4c4c4c;
+}
+
+p {
+    color: #848484;
+}
+
+span {
+    color: black;
+}

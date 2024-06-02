@@ -1,0 +1,21 @@
+.contact {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.contact > ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 320px;
+}
+
+.contact > ul img {
+    height: 40px;
+    width: 40px;
+}
+
+.contact > ul img:hover {
+    cursor: pointer;
+}

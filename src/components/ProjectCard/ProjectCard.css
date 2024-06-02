@@ -1,0 +1,22 @@
+img {
+    width: 100%;
+}
+
+.project-card {
+    height: 400px;
+    background-color: white;
+}
+
+.project-card > div {
+    margin: 20px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
