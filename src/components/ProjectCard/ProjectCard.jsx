@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function ProjectCard({img, language, color, title, description, link}) {
     return (
         <div className='project-card'>
-            <a href={link}>
             <img src={img} alt=''/>
+            <a href={link}>
             <FontAwesomeIcon className='icon' icon={faGithub} size='3x' 
                             style={{position: 'relative', 
                                     bottom: '40px',
