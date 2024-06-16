@@ -1,11 +1,20 @@
 import './ProjectCard.css';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-function ProjectCard({img, language, color, title, description}) {
+function ProjectCard({img, language, color, title, description, link}) {
     return (
         <div className='project-card'>
-            <FontAwesomeIcon className='icon' icon={faGithub} size='3x' style={{position: 'relative', left: '270px', top: '182px', backgroundColor: 'white', borderRadius: '50%'}} />
+            <a href={link}>
             <img src={img} alt=''/>
+            <FontAwesomeIcon className='icon' icon={faGithub} size='3x' 
+                            style={{position: 'relative', 
+                                    bottom: '40px',
+                                    left: '270px',  
+                                    backgroundColor: 'black',
+                                    color: 'white',
+                                    borderRadius: '50%' }}
+                                    />
+            </a>
             <ul style={{color: `${color}`}}>
                 <li>{language}</li>
             </ul>

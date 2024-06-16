@@ -20,3 +20,8 @@ ul {
     transition: 0.2s ease;
     cursor: pointer;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
