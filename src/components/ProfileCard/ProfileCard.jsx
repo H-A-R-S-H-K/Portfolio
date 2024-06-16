@@ -1,6 +1,6 @@
 import './ProfileCard.css';
 import Typing from '../Typing/Typing';
-import Image from '../../Assets/photo.jpeg';
+import Image from '../../Assets/profile.jpeg';
 import { faFacebook, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function ProfileCard() {
@@ -25,7 +25,7 @@ function ProfileCard() {
                 />
 
                 <button className='green'>DOWNLOAD RESUME</button>
-                <button className='blue'>CONTACT</button>
+                <a href='#contact'><button className='blue'>CONTACT</button></a>
 
                 <p>👨 ‍ 🎓 <span>Experience Level </span>:  0+ years</p>
                 <p>💻 <span>I’m Currently Watching</span>  Jujutsu Kaisen 🚀</p>
