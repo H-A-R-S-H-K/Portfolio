@@ -27,11 +27,11 @@ function ProfileCard() {
                 <button className='green'>DOWNLOAD RESUME</button>
                 <a href='#contact'><button className='blue'>CONTACT</button></a>
 
-                <p>👨 ‍ 🎓 <span>Experience Level </span>:  0+ years</p>
+                <p>👨 ‍ 🎓 <span>Experience Level </span>:  2nd Year College Student</p>
                 <p>💻 <span>I’m Currently Watching</span>  Jujutsu Kaisen 🚀</p>
-                <p>🧩 <span>Interested In</span> :  Technology, Chess, Space, Gym</p>
-                <p>💡 <span>Equipments</span> : Knowledge, java, C++, nodejs, webdev, Linux</p>
-                <p>⚡ <span>Fun Fact</span> : Prefer protein over coffee</p>
+                <p>🧩 <span>Interested In</span> :  Programming, Chess, Gym, Conspiracy Theories</p>
+                <p>💡 <span>Equipments</span> : Python, Java, C++, Nodejs, Golang</p>
+                <p>⚡ <span>Fun Fact</span> : Prefer protein over caffeine</p>
             </div>
         </div>
     )

@@ -9,7 +9,7 @@ function Portfolio() {
           <PortfolioCard 
           img={<FontAwesomeIcon icon={faUser} size='2x' color='Dodgerblue'/>}
           title={"Developer"} 
-          description={"I am a data engineer with 3+ years of experience working on Azure cloud. have a strong background in ETL processes and have successfully completed multiple projects involving data ingestion, transformation, and loading. highly proficient in Python and have a strong understanding of SQL and data management principles. able to work effectively in both individual and team environments and am committed to delivering high-quality results."} 
+          description={"Passionate Computer Science student with strong foundations in Java, Python, C++, Golang and JavaScript. Highly proficient in Machine Learning and have a strong understanding of SQL and data management principles. Able to work effectively in both individual and team environments and am committed to delivering high-quality results."} 
           /> 
           <PortfolioCard 
           img={<FontAwesomeIcon icon={faA} size='2x' color='Mediumslateblue'/>}
